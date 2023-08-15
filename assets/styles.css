@@ -1,0 +1,28 @@
+@font-face {
+  font-family: glitch-goblin;
+  src: url(fonts/glitch-goblin.regular.ttf);
+}
+
+body {
+  background-color: #2d2847;
+  background-image: url("images/bg.png");
+  background-size: cover;
+}
+
+.content {
+  text-align: center;
+  padding: 10px;
+  font-family: "glitch-goblin", sans-serif;
+  color: white;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .telegram-embed {
+    margin-top: -70px;
+    transform: scale(0.8);
+  }
+  body {
+    background-position: center top;
+  }
+}
